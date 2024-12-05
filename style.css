@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Barra de pesquisa */
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .search-container {
+    margin-top: 10px;
+  }
+  
+  #search-bar {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #search-btn {
+    padding: 10px 15px;
+    background-color: #005bb5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #search-btn:hover {
+    background-color: #003f8c;
+  }
+  
+  /* Grid de livros */
+  .main-container {
+    padding: 20px;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .book-card {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Escritor e descrição */
+  .author-section {
+    background-color: #e6f7ff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .author-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .author-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .author-description {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  /* Rodapé */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6;
+    color: white;
+  }
+
+  .book-card img{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+  }
